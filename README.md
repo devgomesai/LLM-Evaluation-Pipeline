@@ -1,5 +1,6 @@
 # LLM Evaluation Pipeline - Execution Flow & Project Structure
 ## Using Groq Cloud LLM Models
+![eval](./img/pipeline.png)
 
 ---
 
