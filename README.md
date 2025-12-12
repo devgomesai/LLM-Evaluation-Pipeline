@@ -965,6 +965,5 @@ Phase 8 (Output)
 Phase 9 (Cleanup)
 ```
 ---
-This execution flow ensures a systematic, scalable approach to evaluating LLM responses while keeping costs and latency low using Groq's fast inference capabilities.
+## This execution flow ensures a systematic, scalable approach to evaluating LLM responses while keeping costs and latency low using Groq's fast inference capabilities.
 
-   1     python main.py --chat samples/sample-chat-conversation-01.json --context samples/sample_context_vectors-01.json --output output/response1.json

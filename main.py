@@ -32,3 +32,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+    Run Command 
+    python main.py --chat samples/sample-chat-conversation-01.json --context samples/sample_context_vectors-01.json --output output/response1.json
+
+"""
