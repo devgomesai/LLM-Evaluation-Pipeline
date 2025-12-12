@@ -1,0 +1,63 @@
+{
+  "overall_score": 0.5556,
+  "reliability_status": "UNRELIABLE",
+  "dimensions": {
+    "relevance": {
+      "relevance_score": 0.2,
+      "completeness_score": 0.2,
+      "weighted_relevance": 0.2
+    },
+    "hallucination": {
+      "hallucination_score": 0.0,
+      "accuracy_score": 1.0,
+      "supported_claims": 7,
+      "unsupported_claims": 0,
+      "contradicted_claims": 0,
+      "claim_details": [
+        {
+          "claim": "I understand your concern about the long-term health of a baby conceived through donor eggs.",
+          "status": "SUPPORTED"
+        },
+        {
+          "claim": "It's natural to wonder about potential risks.",
+          "status": "SUPPORTED"
+        },
+        {
+          "claim": "Please be assured that egg donors undergo thorough screening for genetic and infectious diseases to minimize these risks.",
+          "status": "SUPPORTED"
+        },
+        {
+          "claim": "We do genetic screening, along with taking a detailed family history of the donor to determine the presence of any diseases that may be transmitted to the unborn child.",
+          "status": "SUPPORTED"
+        },
+        {
+          "claim": "This helps ensure the health of the eggs used in the IVF cycle.",
+          "status": "SUPPORTED"
+        },
+        {
+          "claim": "Also, we only use frozen eggs in our clinic to prevent the inadvertent transmission of HIV/AIDS through IVF.",
+          "status": "SUPPORTED"
+        },
+        {
+          "claim": "Do you have any questions about the legal contracts involved in donor egg IVF?",
+          "status": "SUPPORTED"
+        }
+      ]
+    },
+    "efficiency": {
+      "input_tokens": 14853,
+      "output_tokens": 114,
+      "estimated_cost_usd": 0.00404109,
+      "latency_ms": 0
+    }
+  },
+  "metadata": {
+    "execution_time_sec": 118.56,
+    "chat_source": "samples/sample-chat-conversation-02.json",
+    "context_source": "samples/sample_context_vectors-02.json"
+  },
+  "input_data": {
+    "query": "In my case donor option is have better chance.?",
+    "response": "I understand your concern about the long-term health of a baby conceived through donor eggs. It's natural to wonder about potential risks. Please be assured that egg donors undergo thorough screening for genetic and infectious diseases to minimize these risks. We do genetic screening, along with taking a detailed family history of the donor to determine the presence of any diseases that may be transmitted to the unborn child. This helps ensure the health of the eggs used in the IVF cycle. Also, we only use frozen eggs in our clinic to prevent the inadvertent transmission of HIV/AIDS through IVF. Do you have any questions about the legal contracts involved in donor egg IVF?"
+  }
+}

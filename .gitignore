@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+.idea/
+.vscode/
+evaluation.log
+result.json
+GEMINI.md
+pdf
